@@ -13,8 +13,8 @@ body {
 }
 
 /*===== Nav =====*/
-.navbar-brand img {
-   height: 5rem;
+.navbar-brand p {
+   height: 1rem;
 }
 
 .navbar-light {
@@ -38,21 +38,9 @@ body {
    color: grey !important;
 }
 
-@media only screen and (max-width: 350px) {
-   .navbar-brand img {
-      width: 16rem;
-   }
-}
-
-@media only screen and (max-width: 287px) {
-   .navbar-brand img {
-      width: 15rem;
-   }
-}
-
-@media only screen and (max-width: 275px) {
-   .navbar-brand img {
-      width: 14rem;
+@media only screen and (max-width: 277px) {
+   .navbar-brand p {
+      font-size: 1.2rem;
    }
 }
 
