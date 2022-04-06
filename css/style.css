@@ -16,6 +16,7 @@ body {
 .navbar-brand img {
    height: 5rem;
 }
+
 .navbar-light {
    padding: .6rem 1rem;
    font-size: 1.1rem;
@@ -23,15 +24,18 @@ body {
    text-transform: uppercase;
    letter-spacing: .1rem;
 }
+
 .navbar-nav li {
    padding-right: .8rem;
 }
+
 .navbar-nav .nav-link {
-   color: black!important;
+   color: black !important;
 }
+
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-   color: grey!important;
+   color: grey !important;
 }
 
 /*===== Landing Page =======*/
@@ -40,6 +44,7 @@ body {
 .landing {
    height: 100vh;
 }
+
 .home-inner {
    background-image: url('../img/Island.jpg');
    position: fixed;
@@ -53,6 +58,7 @@ body {
    top: 40%;
    text-align: center;
 }
+
 .btn {
    border-width: medium;
    border-radius: 0;
@@ -70,6 +76,7 @@ body {
    font-weight: 700;
    padding-bottom: 1rem;
 }
+
 p {
    color: #000;
 }
@@ -78,11 +85,11 @@ p {
    font-size: 1.2rem;
 }
 
- @media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
    #about .info p {
       font-size: 1.2rem;
    }
- }
+}
 
 
 /*-- Portflio Section --*/
@@ -91,21 +98,21 @@ p {
 }
 
 .intro {
-	max-width: 90%;
-	margin: 0 auto;
-	text-align: center;
-	padding: 45px 0 40px;
+   max-width: 90%;
+   margin: 0 auto;
+   text-align: center;
+   padding: 45px 0 40px;
 }
 
 .border-container {
-	margin: 40px auto 30px;
+   margin: 40px auto 30px;
 }
 
 .border {
-	background-color: #547990;
-	padding: 1px;
-	width: 20%;
-	margin: 0 auto;
+   background-color: #547990;
+   padding: 1px;
+   width: 20%;
+   margin: 0 auto;
 }
 
 .intro p {
@@ -116,21 +123,24 @@ p {
    .col-md-4 img {
       padding-top: 4%;
    }
- }
+}
 
 
 /*-- Contact Section --*/
 .footer {
    background-color: #ffffff;
 }
+
 .footer p {
    color: #000;
    text-decoration: none;
 }
+
 .footer a {
    color: #000;
    text-decoration: none;
 }
+
 ul.social {
    list-style-type: none;
    display: flex;
@@ -138,14 +148,17 @@ ul.social {
    margin: 0 auto;
    max-width: 11.8rem;
 }
+
 ul.social li {
    margin: auto;
    display: inline;
    padding-right: .2rem;
 }
-.footer .svg-inline--fa{
+
+.footer .svg-inline--fa {
    font-size: 1.8rem;
 }
+
 .footer .svg-inline--fa:hover {
    color: #00b3ff;
 }
@@ -164,6 +177,7 @@ ul.social li {
    display: table;
    z-index: -1;
 }
+
 .home-wrap {
    clip: rect(0, auto, auto, 0);
    position: absolute;
@@ -172,6 +186,7 @@ ul.social li {
    width: 100%;
    height: 100%;
 }
+
 .home-inner {
    display: table;
    top: 0;
