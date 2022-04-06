@@ -38,6 +38,24 @@ body {
    color: grey !important;
 }
 
+@media only screen and (max-width: 350px) {
+   .navbar-brand img {
+      width: 16rem;
+   }
+}
+
+@media only screen and (max-width: 287px) {
+   .navbar-brand img {
+      width: 15rem;
+   }
+}
+
+@media only screen and (max-width: 275px) {
+   .navbar-brand img {
+      width: 14rem;
+   }
+}
+
 /*===== Landing Page =======*/
 
 /*-- Fixed Landing Page Section --*/
